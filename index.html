@@ -3,13 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
-   	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximun-scale=1.0, user-scalable=no">
-    <title>学习平台-SHSSEDU</title>
-    <meta content="SHSSEDU,公开课,网课,在线教育,教育,慕课,TED,纪录片" name="keywords">
-    <meta name="referrer" content="no-referrer" />
-    <meta name="description" content="">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="https://jsd.onmicrosoft.cn/gh/SHSSEDU/LOGO@main/LOGO-removebg.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximun-scale=1.0, user-scalable=no">
+	<title>学习平台-SHSSEDU</title>
+	<meta content="SHSSEDU,公开课,网课,在线教育,教育,慕课,TED,纪录片" name="keywords">
+	<meta name="referrer" content="no-referrer" />
+	<meta name="description" content="">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="shortcut icon" type="image/x-icon"
+		href="https://jsd.onmicrosoft.cn/gh/SHSSEDU/LOGO@main/LOGO-removebg.png">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
 	<!-- jQuery library -->
@@ -19,6 +20,7 @@
 	<!-- Bootstrap JS -->
 	<script src="https://jsd.onmicrosoft.cn/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"
 		type="text/javascript"></script>
+	<!-- <link rel="stylesheet" href="//www.icourses.cn/web/icourse/lib/font-awesome/css/font-awesome.min.css" /> -->
 
 	<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 	<link rel="stylesheet" href="style.css">
@@ -26,43 +28,46 @@
 
 <body>
 	<header>
-        <div class="logo">
-            <a href="/">
-                <img src="https://jsd.onmicrosoft.cn/gh/SHSSEDU/LOGO@main/LOGO-removebg.png" alt="" width="100px" height="auto">
-            </a>
-        </div>
-        <h1 style="text-align: center; margin: 10px;">SHSSEDU学习平台</h1>
-    </header>
-	<div style="width: 100%; background-color: brown;height: 50px; text-align: center;font-size: 20px; line-height: 50px;">
-		<a href="mooc/index.html" style="color: aliceblue;">一流大学系列课程</a></div>
+		<div class="logo">
+			<a href="/">
+				<img src="https://jsd.onmicrosoft.cn/gh/SHSSEDU/LOGO@main/LOGO-removebg.png" alt="" width="100px"
+					height="auto">
+			</a>
+		</div>
+		<h1 style="text-align: center; margin: 10px;">SHSSEDU学习平台</h1>
+	</header>
+	<div
+		style="width: 100%; background-color: brown;height: 50px; text-align: center;font-size: 20px; line-height: 50px;">
+		<a href="mooc/index.html" style="color: aliceblue;">一流大学系列课程</a>
+	</div>
 	<section class="wrap sort-wrap">
 		<div class="container">
-		
+
 			<div class="form-group">
 				<div class="row">
 					<div class="sort-toType clearfix type-i">
 						<span class="pull-left title">分类：</span>
-						<ul class="sort-type-l clearfix pull-left" id="catagoryId">
+						<ul class="sort-type-l clearfix pull-left col-sm-12" id="catagoryId">
 							<!-- Add your categories here -->
 
-							<li class="pull-left sort-type-i active" data-code=""><a href="#">全部</a></li>
-							<li class="pull-left sort-type-i" data-code="1"><a href="#">计算机</a></li>
-							<li class="pull-left sort-type-i" data-code="2"><a href="#">经济管理</a></li>
-							<li class="pull-left sort-type-i" data-code="3"><a href="#">心理学</a></li>
-							<li class="pull-left sort-type-i" data-code="4"><a href="#">外语</a></li>
-							<li class="pull-left sort-type-i" data-code="5"><a href="#">文学历史</a></li>
-							<li class="pull-left sort-type-i" data-code="6"><a href="#">艺术设计</a></li>
-							<li class="pull-left sort-type-i" data-code="7"><a href="#">工学</a></li>
-							<li class="pull-left sort-type-i" data-code="8"><a href="#">理学</a></li>
-							<li class="pull-left sort-type-i" data-code="9"><a href="#">医药卫生</a></li>
-							<li class="pull-left sort-type-i" data-code="16"><a href="#">农林园艺</a></li>
-							<li class="pull-left sort-type-i" data-code="10"><a href="#">哲学</a></li>
-							<li class="pull-left sort-type-i" data-code="11"><a href="#">法学</a></li>
-							<li class="pull-left sort-type-i" data-code="12"><a href="#">思想政治教育</a></li>
-							<li class="pull-left sort-type-i" data-code="13"><a href="#">教育教学</a></li>
-							<li class="pull-left sort-type-i" data-code="100"><a href="#">大学先修课</a></li>
-							<li class="pull-left sort-type-i" data-code="200"><a href="#">职业教育</a></li>
-							<li class="pull-left sort-type-i" data-code="300"><a href="#">创新创业</a></li>
+							<li class="pull-left sort-type-i active col-sm-2" data-code=""><a href="#">全部</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="1"><a href="#">计算机</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="2"><a href="#">经济管理</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="3"><a href="#">心理学</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="4"><a href="#">外语</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="5"><a href="#">文学历史</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="6"><a href="#">艺术设计</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="7"><a href="#">工学</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="8"><a href="#">理学</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="9"><a href="#">医药卫生</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="16"><a href="#">农林园艺</a></li>
+							<li class="pull-left sort-type-icol-sm-2" data-code="10"><a href="#">哲学</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="11"><a href="#">法学</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="12"><a href="#">思想政治教育</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="13"><a href="#">教育教学</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="100"><a href="#">大学先修课</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="200"><a href="#">职业教育</a></li>
+							<li class="pull-left sort-type-i col-sm-2" data-code="300"><a href="#">创新创业</a></li>
 
 							<!-- Add more categories as per your requirement -->
 						</ul>
@@ -93,35 +98,38 @@
 
 	<!-- 底部 -->
 	<footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12" style="text-align: center;">
-                      
-                        <p class="copy_right text-center">
-                            <div class="container">
-                                <p class="g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">SHSSEDU&amp; ©<a href="https://www.icourses.cn/">爱课程</a></small>
-                            </div>
-                           
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;
-                            <script type="a519c1787ea30b5be56a31f7-text/javascript">document.write(new Date().getFullYear());</script> SHSSEDU All rights reserved
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                       
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="back"><a href="/">返回首页</a></div>
+		<div class="footer_top">
+			<div class="container">
+
+			</div>
+		</div>
+		<div class="copy-right_text">
+			<div class="container">
+				<div class="footer_border"></div>
+				<div class="row">
+					<div class="col-xl-12" style="text-align: center;">
+
+						<p class="copy_right text-center">
+						<div class="container">
+							<p class="g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">SHSSEDU&amp; ©<a
+									href="https://www.icourses.cn/">爱课程</a></small>
+						</div>
+
+						<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;
+							<script
+								type="a519c1787ea30b5be56a31f7-text/javascript">document.write(new Date().getFullYear());</script>
+							SHSSEDU All rights reserved
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- <div class="back"><a href="/">返回首页</a></div> -->
 	<script>
 		$(document).ready(function () {
 			// Load the first page on page load
